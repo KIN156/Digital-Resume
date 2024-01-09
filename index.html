@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div id="container--main">
@@ -24,9 +25,10 @@
             <section class="section--page">
         
                 <div id="socials--list">
-                    <a href="https://www.linkedin.com/in/dhimmar-kinjal/" target="_blank">Linkedin</a>
-                    <a href="https://github.com/KIN156" target="_blank">Github</a>
-                    <a href="./assets/Kinjalkumari_Dhimmar_python_developer.docx" target="_blank">Download Resume</a>
+                    <a href="https://www.linkedin.com/in/dhimmar-kinjal/" target="_blank">Linkedin <i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://github.com/KIN156" target="_blank">Github <i class="fa fa-github"></i>
+                    </a>
+                    <a href="./assets/Kinjalkumari_Dhimmar_python_developer.docx" target="_blank">Download Resume &#8595;</a>
                 </div>
             </section>
 
@@ -111,23 +113,54 @@
 
             <section class="section--page">
                 <h2>Certifications</h2>
+                <div id="certificates--list">
+                    <!-- Certificate 1 -->
+                    <div class="certificate" onclick="openCertificate('./assets/pdfs/CertificateOfCompletion_Agile Project Management with Jira Cloud 1 Projects Boards and Issues.pdf')">
+                        <img src="./assets/images/agile_certi.png" alt="Certificate 1 Thumbnail">
+                        <p>Agile Project Management</p>
+                    </div>
+    
+                    <!-- Certificate 2 -->
+                    <div class="certificate" onclick="openCertificate('./assets/pdfs/CertificateOfCompletion_Python Essential Training (1).pdf')">
+                        <img src="./assets/images/python_essential.png" alt="Certificate 2 Thumbnail">
+                        <p>Python Essential Training</p>
+                    </div>
+    
+                    <!-- Certificate 3 -->
+                    <div class="certificate" onclick="openCertificate('./assets/pdfs/Django_Certification_Meta.pdf')">
+                        <img src="./assets/images/django_meta.png" alt="Certificate 3 Thumbnail">
+                        <p>Django framework Meta</p>
+                    </div>
 
-                <div class="card--project">
-                    <a href="project1.html"><span>🏆 </span>CRM - Customer Relationship Management</a>
+                    <!-- Certificate 4 -->
+                    <div class="certificate" onclick="openCertificate('./assets/pdfs/python_basic_certificate_hackerrank.pdf')">
+                        <img src="./assets/images/hackerrank.png" alt="Certificate 3 Thumbnail">
+                        <p>HackerRank Python Basic</p>
+                    </div>
+
+                    <!-- Certificate 5 -->
+                    <div class="certificate" onclick="openCertificate('./assets/pdfs/CertificateOfCompletion_AWS Certified Cloud Practitioner CLFC01 Cert Prep 1 Cloud Concepts.pdf')">
+                        <img src="./assets/images/aws.png" alt="Certificate 3 Thumbnail">
+                        <p>AWS cloud Practitioner</p>
+                    </div>
+                    
+                    <!-- Certificate 6 -->
+                    <div class="certificate" onclick="openCertificate('./assets/pdfs/CertificateOfCompletion_Web Programming Foundations.pdf')">
+                        <img src="./assets/images/web_programming.png" alt="Certificate 3 Thumbnail">
+                        <p>WebProgramming Foundation</p>
+                    </div>
+
+    
+                    <!-- Add more certificates as needed -->
                 </div>
-
-                <div class="card--project">
-                    <a href="project2.html" ><span>🏆 </span>E - commerce website using Django</a>
-                </div>
-
-                <div class="card--project">
-                    <a href="project3.html" ><span>🏆 </span>Personal portfolio website</a>
-                </div>
-
             </section>
-
-       
         </div>
+        <script>
+            function openCertificate(pdfUrl) {
+                // Open the PDF in a new window or tab
+                window.open(pdfUrl, '_blank');
+            }
+        </script>
 
     </body>
 </html>
