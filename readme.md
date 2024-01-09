@@ -6,7 +6,7 @@ View live demo here using github pages: [Live Demo](https://divanov11.github.io/
 
 ##Preview
 
-<img src="assets\images\dark mode preview.PNG">
+<img src="assets\images\Screenshot.PNG">
 
 
 
