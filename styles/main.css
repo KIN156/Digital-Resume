@@ -181,3 +181,11 @@ li{
         padding-left: 0;
     }
 }
+
+#login-page{
+    max-width: 100%; /* Set maximum width to ensure responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: 20px; /* Add margin to the top for spacing */
+}
