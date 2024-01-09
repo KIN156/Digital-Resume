@@ -6,7 +6,7 @@ View live demo here using github pages: [Live Demo](https://divanov11.github.io/
 
 ##Preview
 
-<img src="assets\images\Screenshot.PNG">
+<img src="assets\images\Screenshot.png">
 
 
 
