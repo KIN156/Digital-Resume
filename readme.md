@@ -4,7 +4,7 @@ A digital resume website built based on the content from my personal REAL [resum
 
 View live demo here using github pages: [Live Demo](https://kin156.github.io/Digital-Resume/)
 
-##Preview
+## Preview
 
 <img src="assets\images\Screenshot.png">
 
